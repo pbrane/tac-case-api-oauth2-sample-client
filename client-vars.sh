@@ -1,0 +1,13 @@
+export CLIENT_ID=client-id
+export CLIENT_SECRET=client-secret
+export CLIENT_NAME=client-name
+export CLIENT_SCOPE="read.cases,write.cases"
+export AUTH_BASE_URI=http://localhost:9081
+export TOKEN_EP_URI=/oauth2/token
+export AUTH_EP_URI=/oauth2/authorize
+export USER_INFO_EP_URI=/oauth2/userinfo
+export JWK_SET_EP_URI=/oauth2/jwks
+export CLIENT_CONN_TIMEOUT=2000
+export CLIENT_RESP_TIMEOUT=3000
+export RESOURCE_BASE_URI=http://localhost:8080/api/v1
+export AUTH_BASE_URI=http://localhost:9081
