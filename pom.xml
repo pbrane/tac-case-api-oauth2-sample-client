@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.beaconstrategists</groupId>
-	<artifactId>oauth2-sample-client</artifactId>
+	<artifactId>tac-case-api-oauth2-sample-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>oauth2-sample-client</name>
+	<name>tac-case-api-oauth2-sample-client</name>
 	<description>Example of a Spring Boot OAuth2 Client</description>
 	<url/>
 	<licenses>
