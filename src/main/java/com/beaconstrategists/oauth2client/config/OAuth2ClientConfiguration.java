@@ -15,7 +15,7 @@ public class OAuth2ClientConfiguration {
     @Value("${CLIENT_ID:client-id}")
     private String clientId;
 
-    @Value("${CLIENT_SECRET:client-pwd}")
+    @Value("${CLIENT_SECRET:client-secret}")
     private String clientSecret;
 
     @Value("${CLIENT_NAME:client-name}")
