@@ -22,7 +22,7 @@ RUN ./mvnw clean package -DskipTests -P container-build
 FROM eclipse-temurin:21-jdk-noble
 
 # Install reptyr and clean up apt cache
-RUN apt-get update && apt-get install -y reptyr && apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y reptyr dnsutils iproute2 iputils-ping ncat && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 #The Maven container-build profile sets the final name of the JAR to "app.jar"
