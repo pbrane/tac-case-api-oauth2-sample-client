@@ -3,22 +3,6 @@ server:
 spring:
   main:
     web-application-type: none
-#  security:
-#    oauth2:
-#      client:
-#        registration:
-#          my-client-registration:
-#            client-id: client-id
-#            client-secret: client-pwd
-#            authorization-grant-type: client_credentials
-#            scope: read, write
-#            provider: my-provider # Reference to the provider configuration
-#        provider:
-#          my-provider:
-#            token-uri: http://localhost:9000/oauth2/token
-#            authorization-uri: http://localhost:9000/oauth2/authorize
-#            user-info-uri: http://localhost:9000/userinfo
-#            jwk-set-uri: http://localhost:9000/oauth2/jwks
   shell:
     command:
       clear:

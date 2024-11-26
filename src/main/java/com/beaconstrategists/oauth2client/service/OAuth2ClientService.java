@@ -23,11 +23,6 @@ public class OAuth2ClientService {
                 .principal("client") // Principal name (not important for client_credentials)
                 .build();
 
-//        String clientId = authorizeRequest.getAuthorizedClient().getClientRegistration().getClientId();
-//        String clientSecret = authorizeRequest.getAuthorizedClient().getClientRegistration().getClientSecret();
-//        System.out.println("Sending clientId: " + clientId);
-//        System.out.println("Sending clientSecret: " + clientSecret);
-
         OAuth2AuthorizedClient authorizedClient = authorizedClientManager.authorize(authorizeRequest);
 
         if (authorizedClient != null && authorizedClient.getAccessToken() != null) {

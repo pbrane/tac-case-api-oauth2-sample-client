@@ -24,7 +24,7 @@ public class OAuth2ClientConfiguration {
     @Value("${CLIENT_SCOPE:read.cases,write.cases}")
     private String clientScope;
 
-    @Value("${AUTH_BASE_URI:http://localhost:9000}")
+    @Value("${AUTH_BASE_URI:http://localhost:8080}")
     private String baseAuthUri;
 
     @Value("${TOKEN_EP_URI:/oauth2/token}")
